@@ -1,0 +1,38 @@
+.filter-table {
+    margin-top: 100px;
+}
+
+.filter-table .table-striped tbody tr:nth-of-type(odd),
+.filter-table .table-striped tbody tr:hover {
+    background-color: white;
+}
+
+.filter-table .table-bordered td {
+    border: 0 !important;
+}
+
+.filter-table .table-bordered th {
+    border-left: 0 !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid black !important;
+}
+
+.filter-table nav {
+    margin: 0 auto;
+}
+
+.btn-group {
+    margin:2px 0 7px 0;
+}
+.btn-group button{
+    border: 2px solid white;
+    border-radius: .45em;
+}
+
+
+
+ .btn-primary:not(:disabled):not(.disabled):active {
+     background-color: #fed700;
+     color: #000000;
+ }

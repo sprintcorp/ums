@@ -1,0 +1,40 @@
+.list-group-item.active {
+    z-index: 2;
+    color: #000;
+    background-color: #fed700;
+    border-color: #fed700;
+}
+.list-group-item {
+    cursor: pointer;
+}
+
+.page-title.clean {
+    border-bottom: 2px solid #fed700;
+    margin-right: 0;
+}
+
+.app-box-header {
+    color: #000;
+}
+
+.app-box .card-body {
+    padding: 1rem;
+}
+
+.app-box .card-text {
+    line-height: 1.25;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.search-holder .form-control {
+    border: 0;
+    padding: 0;
+}
+
+*::placeholder,
+*::-moz-placeholder,
+*::-ms-input-placeholder
+*::-webkit-input-placeholder{
+    color: #999;
+}

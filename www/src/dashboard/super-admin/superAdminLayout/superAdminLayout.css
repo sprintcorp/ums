@@ -1,0 +1,56 @@
+@import "../../../assets/css/responsive.css";
+@import "../../../assets/css/typography.css";
+@import "../../../assets/css/themify-icons.css";
+@import "../../../assets/css/font-awesome.min.css";
+@import "../../../assets/css/metisMenu.css";
+@import "../../../assets/css/slicknav.min.css";
+
+.container-fluid {
+    background-color: #fff !important;
+
+}
+
+.breadcrumb {
+    background-color: #fff !important;
+    margin-left: -20px !important;
+    padding-top: 50px !important;
+    font-weight: 500;
+}
+
+a {
+    color: #000 !important;
+
+}
+
+a:focus,
+a:hover {
+    text-decoration: none !important;
+}
+
+
+.page-header {
+    margin: 0 25px 25px 25px;
+}
+
+.breadcrumb-item.active {
+    color: #000 !important;
+}
+
+.horizontal-rule {
+    border-bottom: 1px solid #000;
+    padding-top: 2px;
+}
+
+.page-title {
+    display: inline-flex;
+    margin: 0px;
+}
+
+.page-title>.btn+.btn {
+    margin-left: 60px;
+}
+
+.button-group {
+    margin-top: -7px;
+    margin-left: 500px;
+}

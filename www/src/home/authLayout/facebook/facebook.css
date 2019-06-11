@@ -1,0 +1,29 @@
+.button button {
+    width: 100% !important;
+    border-radius: .25em;
+    outline: 0;
+    font-size: 14px !important;
+    min-width: auto !important;
+    background-image: none !important;
+    background-color: #4c69ba;
+}
+.button button img {
+    width: 17px;
+    top: 9px;
+    left: auto;
+    margin-left: -25px;
+}
+.button button .spinner {
+    left: auto;
+    width: 18px;
+    height: 18px;
+    top: 8px;
+    margin-left: -30px;
+    outline: 0;
+}
+.button.container{
+    padding: 0;
+}
+.ti {
+    vertical-align: middle;
+}

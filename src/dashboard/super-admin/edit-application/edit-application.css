@@ -1,0 +1,34 @@
+
+
+
+.create-app {
+    margin-left: 25px;
+}
+
+.form-control:focus {
+    color: #495057;
+    border-color: #c4c4c4 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.user-fields select {
+    background-color: lightgray !important;
+}
+
+
+
+.user-fields .form-check-label {
+    font-weight: bold !important;
+}
+
+.user-fields input[type=radio] {
+    border: 0px;
+    width: 45%;
+    height: 1.5em;
+}
+
+.user-fields .repeater {
+    margin-top: -4px;
+}
+

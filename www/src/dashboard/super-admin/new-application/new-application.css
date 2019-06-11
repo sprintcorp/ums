@@ -1,0 +1,86 @@
+
+
+.info-box {
+    width: 85%;
+    background-color: #f1f1f1;
+    height: 150px;
+    padding: 20px;
+    margin: 15px 20px;
+    border-radius: .5em;
+}
+
+.info-box ul {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.info-box ul li {
+    list-style: none;
+}
+
+
+.info-box ul>li:before {
+    content: "-";
+    text-indent: -5px;
+    font-weight: bolder;
+}
+
+.info-box ul>li {
+    text-indent: -5px;
+}
+
+.create-app{
+    margin-left: 25px;
+}
+
+.form-control:focus {
+    color: #495057;
+    border-color: #c4c4c4 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.user-fields select {
+    background-color: lightgray !important;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 0 !important;
+    top: 40px;
+    right: 10px;
+
+}
+
+
+
+
+.user-fields .form-check-label {
+    font-weight: bold !important;
+}
+
+.user-fields input[type=radio] {
+    border: 0px;
+    width:40%;
+    height: 1.5em;
+}
+
+
+
+.user-fields .repeater {
+    margin-top: 32px;
+}
+
+.page-title {
+    display: inline-flex;
+    margin: 0px;
+}
+
+.page-title>.btn+.btn {
+    margin-left: 10px;
+}
+
+.button-group {
+    margin-top: -7px;
+    margin-left: 500px;
+}

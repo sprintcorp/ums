@@ -1,0 +1,46 @@
+.filter-table {
+    margin-top: 35px;
+}
+
+.filter-table .table-striped tbody tr:nth-of-type(odd),
+.filter-table .table-striped tbody tr:hover {
+    background-color: white;
+}
+
+.filter-table .table-bordered td {
+    border: 0 !important;
+}
+
+.filter-table .table-bordered th {
+    border-left: 0 !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid black !important;
+}
+
+.filter-table nav {
+    margin: 0 auto;
+}
+
+.vue-input-tag-wrapper .input-tag {
+    background-color: #fed800;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    color: #000000;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.vue-input-tag-wrapper .input-tag .remove {
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+textarea {
+    resize: none;
+}
+
+
+

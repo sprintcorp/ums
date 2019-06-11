@@ -1,0 +1,114 @@
+@import "../../assets/css/themify-icons.css";
+
+.auth-form {
+    padding: 0;
+}
+
+.auth {
+    padding: 0 1em;
+}
+
+.form-heading {
+    background: white;
+    padding: 0;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 3.5em;
+}
+
+.form-heading span {
+    position: relative;
+    top: auto;
+    left: auto;
+    /*width: 100px;
+    height: 100px;*/
+    width: 15em;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 3.5;
+    border: 0;
+}
+
+.form-heading span img {
+    max-width: 100%;
+}
+
+.btn-yellow {
+    background: #ff8602;
+    color: white;
+}
+
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-white, .btn-white:hover {
+    background: #fff;
+    border: 2px solid #ff8602;
+    color: initial;
+}
+
+.spinner {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    border-top: 5px solid #fed800;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 15%;
+    top: .75rem;
+}
+
+.spinner + .spin-text {
+    color: white;
+    font-weight: bold;
+}
+
+.alert {
+    background: white;
+    border-left: 3px solid;
+    border-radius: 0;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.alert-dismissible .close {
+     padding: .6rem .75rem;
+ }
+
+.alert .close {
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.divider {
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    margin: 1em 0;
+}
+
+.divider span{
+    position: absolute;
+    left: 42.5%;
+    margin-top: -10px;
+    background: #fff;
+    padding: 0 .5em;
+}
+
+.social-login {
+    margin-top: 2em;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

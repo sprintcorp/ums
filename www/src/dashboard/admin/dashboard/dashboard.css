@@ -1,0 +1,19 @@
+.vue-input-tag-wrapper .input-tag {
+    background-color: #fed800;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    color: #000000;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.vue-input-tag-wrapper .input-tag .remove {
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+textarea {
+    resize: none;
+}

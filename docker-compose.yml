@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    frontend:
+        image: ums/frontend
+        build:
+            context: ./
+            dockerfile: docker/Dockerfile
+        #command: npm run serve
+        volumes:
+            - ./client:/www
+        ports:
+            - "8080:80"
